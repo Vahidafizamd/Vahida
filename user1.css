@@ -26,7 +26,7 @@ button{
     right: 20px;
     width: 150px;
 }
-p{
+.para1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 70px;
@@ -76,4 +76,55 @@ p{
   .header-right {
     float: right;
   }
+  .divi{
+    display: flex;
+    margin-left: 100px
+    
+}
+.one, .two, .three{
+    border: 1px solid rgba(211, 199, 199, 0.877);
+    margin: 10px 25px;
+    border-radius: 10px;
+    height: 230px;
+    padding-top: 45px;
+    width: 300px;
+    
+}
+.line{
+    position: relative;
+    bottom: 10px;
+}
+
+#anc{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    color: blue;
+    
+}
+#bo2,.para{
+    text-align: center;
+}
+.para{
+    font-family: "Montserrat", Sans-serif;
+    color: rgb(59, 57, 57);
+    font-weight: 40;
+}
+#bo2{
+    font-weight: 600;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.fa-asterisk,.fa-headphones,.fa-shield-halved{
+    color: blue;
+    font-size: 40px;
+}
+.fa-greater-than{
+    color: blue;
+    position: relative;
+    left: 10px;
+    font-size: 10px;
+}
+
+  
   
